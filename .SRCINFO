@@ -1,0 +1,29 @@
+pkgbase = plasma-theme-xenoglyph
+	pkgdesc = Alien-white cybertribal KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/numbpill3d/xenoglyph
+	arch = any
+	license = GPL-3.0-or-later
+	depends = plasma-workspace
+	depends = kwin
+	depends = kvantum
+	depends = kde-icon-theme
+	optdepends = konsole: Konsole terminal colour scheme
+	optdepends = kitty: kitty terminal colour scheme
+	optdepends = sddm: SDDM login theme
+	optdepends = plymouth: Plymouth boot splash
+	source = plasma-theme-xenoglyph-1.0.tar.gz::https://github.com/numbpill3d/xenoglyph/archive/refs/tags/v1.0.tar.gz
+	sha256sums = SKIP
+
+pkgname = plasma-theme-xenoglyph
+
+pkgname = sddm-theme-xenoglyph
+	pkgdesc = SDDM login theme — Alien-white cybertribal KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	depends = sddm
+	optdepends = plasma-theme-xenoglyph: the Plasma 6 half of the suite
+
+pkgname = plymouth-theme-xenoglyph
+	pkgdesc = Plymouth boot splash — Alien-white cybertribal KDE Plasma 6 theme suite by splicer scorn (voidrane)
+	depends = plymouth
+	optdepends = plasma-theme-xenoglyph: the Plasma 6 half of the suite
